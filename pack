@@ -1,0 +1,8 @@
+#!/bin/sh
+./install
+DIR="$HOME/.local/share/gnome-shell/extensions/overview-titles@naheel.com/"
+PKG="$DIR/overview-titles@naheel.com.zip"
+CUR=`pwd`
+cd $DIR
+zip -r $PKG .
+mv $PKG $CUR
