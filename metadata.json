@@ -1,6 +1,6 @@
 {
 	"name": "Overview Titles Shrink",
-	"description": "Shrink the titles in the overview to fit the window size",
+	"description": "Shrink the titles in the overview to fit the window size. Also does the same for the apps menu.",
 	"shell-version": [
 		"3.18",
 		"3.20",
@@ -10,5 +10,5 @@
 	],
 	"url": "https://github.com/Naheel-Azawy/gnome-shell-extension-overview-titles",
 	"uuid": "overview-titles@naheel.com",
-	"version": 1
+	"version": 2
 }
